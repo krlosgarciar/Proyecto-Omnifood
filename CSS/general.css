@@ -31,8 +31,10 @@ letter spacing
 - Greys: #555, #333, 
 
 --- 05 Sombras
+0 2.4rem 4.8rem
 
 --- 06 Border-radius
+9px, 11px
 
 Default: 10px
 
@@ -115,7 +117,7 @@ body {
 }
 
 .heading-tertiary {
-  font-size: 3.6rem;
+  font-size: 3rem;
   line-height: 1.2;
   margin-bottom: 3.2rem;
 }
@@ -137,7 +139,7 @@ body {
   padding: 1.6rem 3.2rem;
   border-radius: 10px;
   text-decoration: none;
-  transition: background-color 0.3s;
+  transition: all 0.3s;
 }
 
 .btn-full:link,
@@ -166,6 +168,32 @@ body {
 
 /* ! Class Aux */
 
+.link:link,
+.link:visited {
+  color: #e67e22;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  border-bottom: 1px solid transparent;
+}
+
 .margin-right-sm {
   margin-right: 1.6rem;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem;
+}
+
+.center-text {
+  text-align: center;
+}
+
+strong {
+  font-weight: 500;
 }
