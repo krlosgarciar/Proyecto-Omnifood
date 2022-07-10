@@ -15,7 +15,9 @@
 
 <body>
   <header class="header">
-    <img src="img/omnifood-logo.png" alt="Omnifood logo" class="logo">
+    <a href="#">
+      <img src="img/omnifood-logo.png" alt="Omnifood logo" class="logo">
+    </a>
     <nav class="main-nav">
       <ul class="main-nav-list">
         <li><a class="main-nav-link" href="#">Section 1</a></li>
@@ -424,7 +426,76 @@
         </div>
       </div>
     </section>
+
+    <section class="section-cta">
+      <div class="container">
+        <div class="cta">
+          <div class="cta-text-box">
+            <h2 class="heading-secondary">¡obten tu primer pedido gratis!</h2>
+            <p class="cta-text">Comidas saludables, deliciosas y sin complicaciones te están esperando. Comienza a comer
+              bien hoy. Puedes cancelar o pausar en cualquier momento. ¡La primera comida va por nuestra cuenta!</p>
+
+            <form class="cta-form" action="#">
+              <div>
+                <label for="text-name">Nombre Completo</label>
+                <input type="text" placeholder="Ana Hernandez" id="text-name" required>
+              </div>
+
+              <div>
+                <label for="text-email">Correo Electronico</label>
+                <input type="email" placeholder="me@example.com" id="text-email" required>
+              </div>
+
+              <div>
+                <label for="select-where">¿Donde escuchaste de nosotros?</label>
+                <select id="select-where" required>
+                  <option value="">Elige una opcion:</option>
+                  <option value="friends">Amigos y Familia</option>
+                  <option value="youtube">Youtube</option>
+                  <option value="podcast">Podcast</option>
+                  <option value="ad">Facebook ad</option>
+                  <option value="other">Otros medios</option>
+                </select>
+              </div>
+
+              <button class="btn btn--form">¡Registrate ahora!</button>
+            </form>
+          </div>
+          <div class="cta-img-box" role="img" aria-label="Woman enjoying food"></div>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer class="footer">
+
+    <div class="container grid grid--5-cols">
+
+      <div class="logo-col"> <a href="#" class="footer-logo">
+          <img src="img/omnifood-logo.png" alt="Omnifood logo" class="logo">
+        </a>
+        <p class="copyright">Copyright &copy; 2022 by Omnifood, Inc. All Rights Reserved.</p>
+      </div>
+      <div class="address-col">
+        <p class="footer-heading">Contáctanos</p>
+        <address class="contacts">
+          <p>
+            Carrera 15 # 124-30, Centro Comercial Unicentro, Local 104, Bogotá D.C., 110003
+          </p>
+          <p>
+            <a href="tel:(601) 213-88-00">(601) 213-88-00</a>
+            <br>
+            <a href="mailto:hola@omnifood.com">hola@omnifood.com</a>
+          </p>
+        </address>
+      </div>
+      <nav class="nav-col">Nav 1</nav>
+      <nav class="nav-col">Nav 2</nav>
+      <nav class="nav-col">Nav 3</nav>
+
+    </div>
+
+  </footer>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
