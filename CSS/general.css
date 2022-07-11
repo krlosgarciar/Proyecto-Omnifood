@@ -46,8 +46,8 @@ Default: 10px
 */
 
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -110,7 +110,7 @@ body {
 .heading-tertiary {
   font-weight: 700;
   color: #333;
-  letter-spacing: -1px;
+  letter-spacing: -0.5px;
 }
 
 .heading-primary {
@@ -148,7 +148,7 @@ body {
   font-size: 2rem;
   font-weight: 600;
   padding: 1.6rem 3.2rem;
-  border-radius: 10px;
+  border-radius: 9px;
   text-decoration: none;
   transition: all 0.3s;
 
@@ -206,6 +206,7 @@ body {
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 
 .list-icon {
@@ -223,6 +224,7 @@ body {
 
 .link:link,
 .link:visited {
+  display: inline-block;
   color: #e67e22;
   text-decoration: none;
   border-bottom: 1px solid currentColor;

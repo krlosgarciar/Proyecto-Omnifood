@@ -9,7 +9,7 @@
   background-color: #fdf2e9;
 
   /* For sticky */
-  height: 9.4rem;
+  height: 9.6rem;
   padding: 0 4.8rem;
 }
 
@@ -25,7 +25,7 @@
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 3.8rem;
 }
 
 .main-nav-link:link,
@@ -62,16 +62,17 @@
 
 .section-hero {
   background-color: #fdf2e9;
-  padding: 4.6rem 4.8rem 9.6rem 4.8rem;
+  padding: 4.8rem 0 9.6rem 0;
 }
 
 .hero {
   max-width: 130rem;
   margin: 0 auto;
+  padding: 0 3.2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
   gap: 9.6rem;
+  align-items: center;
 }
 
 .hero-description {
@@ -227,8 +228,7 @@
 }
 
 .meal-content {
-  padding: 4.8rem;
-  padding-top: 3.2rem;
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
 }
 
 .meal-tags {
@@ -260,7 +260,7 @@
 }
 
 .meal-title {
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   color: #333;
   font-weight: 600;
   margin-bottom: 3.2rem;
@@ -320,6 +320,7 @@
 .testimonial-img {
   width: 6.4rem;
   border-radius: 50%;
+  margin-bottom: 1.2rem;
 }
 
 .testimonial-text {
@@ -439,6 +440,10 @@
   text-align: center;
 }
 
+/* ? ******************* */
+/* ? FEATURE SECTION */
+/* ? ******************* */
+
 .feature-icon {
   color: #e67e22;
   height: 3.2rem;
@@ -465,7 +470,7 @@
 /* ? ******************* */
 
 .section-cta {
-  padding: 4.8rem 0 12.8rem 0;
+  padding: 4.8rem 0 12.8rem;
 }
 
 .cta {
@@ -487,12 +492,12 @@
   color: #45260a;
   margin-bottom: 3.2rem;
   /* Personal add */
-  font-size: 4.3rem;
+  /* font-size: 4.3rem; */
 }
 
 .cta-text {
-  font-size: 1.7rem;
-  line-height: 1.7;
+  font-size: 1.8rem;
+  line-height: 1.8;
   margin-bottom: 4.8rem;
 }
 
@@ -596,7 +601,7 @@
   line-height: 1.6;
 }
 
-.contacts p {
+.contacts p:first-child {
   margin-bottom: 2.4rem;
 }
 
