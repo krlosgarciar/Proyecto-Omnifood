@@ -4,29 +4,33 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description"
+    content="Omnifood es una suscripción de comida impulsada por inteligencia artificial que te hará volver a comer sano, los 365 días del año. Se adapta a sus gustos personales y necesidades nutricionales.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="img/favicon-64.png" type="image/x-icon">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="/CSS/general.css">
   <link rel="stylesheet" href="/CSS/style.css">
   <link rel="stylesheet" href="/CSS/queries.css">
-  <title>Omnifood</title>
+  <title>Omnifood &mdash; ¡Nunca más cocines!</title>
 </head>
 
 <body>
-  <!-- nav-open -->
   <header class="header">
     <a href="#">
       <img src="img/omnifood-logo.png" alt="Omnifood logo" class="logo">
     </a>
     <nav class="main-nav">
       <ul class="main-nav-list">
-        <li><a class="main-nav-link" href="#">Como funciona</a></li>
-        <li><a class="main-nav-link" href="#">Comidas</a></li>
-        <li><a class="main-nav-link" href="#">Testimonios</a></li>
-        <li><a class="main-nav-link" href="#">Precios</a></li>
-        <li><a class="main-nav-link nav-cta" href="#">Prueba gratis</a></li>
+        <li><a class="main-nav-link" href="#how">Como funciona</a></li>
+        <li><a class="main-nav-link" href="#meals">Comidas</a></li>
+        <li><a class="main-nav-link" href="#testimonials">Testimonios</a></li>
+        <li><a class="main-nav-link" href="#pricing">Precios</a></li>
+        <li><a class="main-nav-link nav-cta" href="#cta">Prueba gratis</a></li>
       </ul>
     </nav>
 
@@ -45,8 +49,10 @@
             La suscripción ideal de comidas para los 365 días del año, que te hará volver comer de forma saludable.
             Adaptado a tus gustos personales y necesidades nutricionales.
           </p>
-          <a href="#" class="btn btn-full margin-right-sm">¡Empieza ahora!</a>
-          <a href="#" class="btn btn-outline">Más información 👇🏻</a>
+          <a href="#cta" class="btn btn-full margin-right-sm">¡Empieza ahora!</a>
+
+          <a href="#how" class="btn btn-outline">Más información 👇🏻</a>
+
           <div class="delivered-meals">
             <figure class="delivered-imgs">
               <img src="img/customers/customer-1.jpg"
@@ -63,7 +69,13 @@
           </div>
         </div>
         <div class="hero-img-box">
-          <img src="img/hero.png" alt="2 imagenes de comidas y una chica probando un plato" class="hero-img">
+          <picture>
+            <source srcset="img/hero.webp" type="image/webp">
+            <source srcset="img/hero.png" type="image/png">
+
+            <img src="img/hero.png"
+              alt="Una mujer disfrutando un plato de comida, platos de comida con diferentes recetas" class="hero-img">
+          </picture>
         </div>
       </div>
     </section>
@@ -81,7 +93,7 @@
       </div>
     </section>
 
-    <section class="section-how">
+    <section class="section-how" id="how">
       <div class="container">
         <span class="subheading">Como funciona</span>
         <h2 class="heading-secondary">Nuestra dosis diaria de salud en 3 sencillos pasos</h2>
@@ -148,7 +160,7 @@
       </div>
     </section>
 
-    <section class="section-meals">
+    <section class="section-meals" id="meals">
       <div class="container center-text">
         <span class="subheading">Comidas</span>
         <h2 class="heading-secondary">La IA de Omnifood, elige entre más de 5,000 recetas</h2>
@@ -258,7 +270,7 @@
 
     </section>
 
-    <section class="section-testimonials">
+    <section class="section-testimonials" id="testimonials">
 
       <div class="testimonials-container">
         <span class="subheading">Testimonios</span>
@@ -289,7 +301,7 @@
 
           <figure class="testimonial">
             <img class="testimonial-img" src="img/customers/hannah.jpg" alt="Photo of customer Hannah Smith">
-            <blockquote class="testimonial-text">Obtuve Omnifood para toda la familia, ¡y me libera mucho timepo!
+            <blockquote class="testimonial-text">Obtuve Omnifood para toda la familia, ¡y me libera mucho tiempo!
               Además,
               todo es orgánico, vegano y sin plástico.</blockquote>
             <p class="testimonial-name">&mdash; Hannah Smith</p>
@@ -338,7 +350,7 @@
       </div>
     </section>
 
-    <section class="section-pricing">
+    <section class="section-pricing" id="pricing">
       <div class="container">
         <span class="subheading">precios</span>
         <h2 class="heading-secondary">Come saludable, sin gastar mucho dinero</h2>
@@ -349,7 +361,7 @@
           <header class="plan-header">
             <p class="plan-name">Inicial</p>
             <p class="plan-price"> <span>$</span>399</p>
-            <p class="plan-text">Por mes. ¡Eso solo serán $13 por comida!</p>
+            <p class="plan-text">Por mes. ¡Solo serán $13 por comida!</p>
           </header>
           <ul class="list">
             <li class="list-item">
@@ -376,7 +388,7 @@
           <header class="plan-header">
             <p class="plan-name">Completo</p>
             <p class="plan-price"> <span>$</span>649</p>
-            <p class="plan-text">Por mes. ¡Eso solo serán $11 por comida!</p>
+            <p class="plan-text">Por mes. ¡Solo serán $11 por comida!</p>
           </header>
           <ul class="list">
             <li class="list-item">
@@ -410,7 +422,7 @@
       <div class="container grid grid--4-cols">
         <div class="feature">
           <ion-icon class="feature-icon" name="infinite-outline"></ion-icon>
-          <p class="feature-title">¡No cocinar más!</p>
+          <p class="feature-title">¡Nunca más cocines!</p>
           <p class="feature-text">Nuestra suscripción cubren los 365 dias del año, incluidos dias festivos.</p>
         </div>
         <div class="feature">
@@ -434,13 +446,13 @@
       </div>
     </section>
 
-    <section class="section-cta">
+    <section class="section-cta" id="cta">
       <div class="container">
         <div class="cta">
           <div class="cta-text-box">
             <h2 class="heading-secondary">¡El primer pedido es gratis!</h2>
             <p class="cta-text">Comidas saludables, deliciosas y sin contra tiempo te esperan. Come
-              bien hoy. Cancela o pausa en cuando quieras. ¡La primera va por nuestra cuenta!</p>
+              bien hoy. Cancela o pausa cuando quieras. ¡La primera va por nuestra cuenta!</p>
 
             <form class="cta-form" action="#">
               <div>
@@ -495,7 +507,7 @@
 
         </ul>
 
-        <p class="copyright">Copyright &copy; 2022 by Omnifood, Inc. All Rights Reserved.</p>
+        <p class="copyright">Copyright &copy; <span class="year">2025</span> by Omnifood, Inc. All Rights Reserved.</p>
       </div>
       <div class="address-col">
         <p class="footer-heading">Contáctanos</p>
@@ -555,6 +567,8 @@
   </footer>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+  <script defer src="JS/script.js"></script>
 </body>
 
 </html>
