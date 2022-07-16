@@ -422,7 +422,7 @@
       <div class="container grid grid--4-cols">
         <div class="feature">
           <ion-icon class="feature-icon" name="infinite-outline"></ion-icon>
-          <p class="feature-title">¡Nunca más cocines!</p>
+          <p class="feature-title">¡No cocines másfetch first!</p>
           <p class="feature-text">Nuestra suscripción cubren los 365 dias del año, incluidos dias festivos.</p>
         </div>
         <div class="feature">
@@ -454,20 +454,20 @@
             <p class="cta-text">Comidas saludables, deliciosas y sin contra tiempo te esperan. Come
               bien hoy. Cancela o pausa cuando quieras. ¡La primera va por nuestra cuenta!</p>
 
-            <form class="cta-form" action="#">
+            <form class="cta-form" name="sign-up" netlify>
               <div>
                 <label for="text-name">Nombre Completo</label>
-                <input type="text" placeholder="Ana Hernandez" id="text-name" required>
+                <input type="text" placeholder="Ana Hernandez" id="text-name" name="full-name" required>
               </div>
 
               <div>
                 <label for="text-email">Correo Electronico</label>
-                <input type="email" placeholder="me@example.com" id="text-email" required>
+                <input type="email" placeholder="me@example.com" id="text-email" name="mail" required>
               </div>
 
               <div>
                 <label for="select-where">¿Donde escuchaste de nosotros?</label>
-                <select id="select-where" required>
+                <select id="select-where" name="select-where" required>
                   <option value="">Elige una opcion:</option>
                   <option value="friends">Amigos y Familia</option>
                   <option value="youtube">Youtube</option>
