@@ -185,7 +185,7 @@ Por ultimo, pero no menos importante. Mi agradecimiento total en este proyecto a
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://github.com/krlosgarciar
-[product-screenshot]: img/demo/Portada-demo.png
+[product-screenshot]: https://github.com/krlosgarciar/Proyecto-Omnifood/blob/master/img/Demo/Portada-demo.png?raw=true
 [javascript]: https://img.shields.io/badge/javascript-4A4A55?style=for-the-badge&logo=javascript&logoColor=yellow
 [css3]: https://img.shields.io/badge/CSS-4A4A55?style=for-the-badge&logo=css3&logoColor=blue
 [html5]: https://img.shields.io/badge/HTML-4A4A55?style=for-the-badge&logo=html5&logoColor=orange
