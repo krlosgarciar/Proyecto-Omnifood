@@ -18,7 +18,7 @@
   <h3 align="center">Omnifood &mdash; ¡Nunca más cocines!</h3>
 
   <p align="center">
-    Puesta en practica de proyecto basado en HTML (Semantico), CSS (Responsive) y JavaScript.
+    Puesta en practica de proyecto de subscripción de comidas desarrollado en HTML (Semantico), CSS (Responsive) y JavaScript.
     <br />
     <a href="https://github.com/krlosgarciar/Proyecto-Omnifood"><strong>Explora el documento »</strong></a>
     <br />
@@ -123,6 +123,11 @@ _No es necesaria niguna instalacion o instrucción._
 
 La intención de este proyecto, es poner en practica los conocimientos adquiridos respectos a _landing page_. En las siguientes lineas dejare algunas imagenes adicionales del proyectos, en el cual puedan observar las distintas fucionalidades implementadas.
 
+[![Omnifood-responsive][product-ss2]](https://omnifood21.netlify.app/)
+[![Omnifood-menu][product-ss3]](https://omnifood21.netlify.app/)
+[![Omnifood-testimonials][product-ss4]](https://omnifood21.netlify.app/#testimonials)
+[![Omnifood-princing][product-ss5]](https://omnifood21.netlify.app/#pricing)
+
 _Para más información, por favor pasar a ver el [Demo](https://omnifood21.netlify.app/)._
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -186,6 +191,10 @@ Por ultimo, pero no menos importante. Mi agradecimiento total en este proyecto a
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://github.com/krlosgarciar
 [product-screenshot]: https://github.com/krlosgarciar/Proyecto-Omnifood/blob/master/img/Demo/Portada-demo.png?raw=true
+[product-ss2]: https://github.com/krlosgarciar/Proyecto-Omnifood/blob/master/img/Demo/PortadaResponsive-demo.png?raw=true
+[product-ss3]: https://github.com/krlosgarciar/Proyecto-Omnifood/blob/master/img/Demo/img-demo-responsive-menu.png?raw=true
+[product-ss4]: https://github.com/krlosgarciar/Proyecto-Omnifood/blob/master/img/Demo/img-demo-responsive.png?raw=true
+[product-ss5]: https://github.com/krlosgarciar/Proyecto-Omnifood/blob/master/img/Demo/img-demo-responsive-pricing.png?raw=true
 [javascript]: https://img.shields.io/badge/javascript-4A4A55?style=for-the-badge&logo=javascript&logoColor=yellow
 [css3]: https://img.shields.io/badge/CSS-4A4A55?style=for-the-badge&logo=css3&logoColor=blue
 [html5]: https://img.shields.io/badge/HTML-4A4A55?style=for-the-badge&logo=html5&logoColor=orange
