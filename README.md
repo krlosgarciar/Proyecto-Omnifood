@@ -66,7 +66,7 @@ Uso de:
 
 - HTML (Semantico),
 - CSS (Estrutural, efectos, Box Model, Responsive Design),
-- JavaScript (Animaciones e intereacción, mejoras en la navegación, compatibilidad de navegadores).
+- JavaScript (Animaciones e interacción, mejoras en la navegación, compatibilidad de navegadores).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
